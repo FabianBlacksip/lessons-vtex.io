@@ -17,16 +17,16 @@ To use this app, you need to import in your dependencies on `manifest.json`.
 
 ```json
   "dependencies": {
-    "blacksipqa.example-2": "0.x"
+    "blacksipqa.example-1": "0.x"
   }
 ```
 
-For example, now you can change the behavior of `example-2` block that is in the product details. See an example of how to configure:
+For example, now you can change the behavior of `example-1` block that is in the product details. See an example of how to configure:
 
 ```json
 {
     "store.home": {
-        "blocks": ["example-2"]
+        "blocks": ["example-1"]
     }
 }
 ```
@@ -35,4 +35,4 @@ For example, now you can change the behavior of `example-2` block that is in the
 
 Below we have a README for each component of this project that explains how to use them.
 
--   [Example-2](Example.md)
+-   [example-1](Example.md)

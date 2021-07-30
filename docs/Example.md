@@ -1,27 +1,27 @@
 # Size Guide
 
-The `example-2` is the block is responsible show the seller information
+The `example-1` is the block is responsible show the seller information
 
 ![image](https://user-images.githubusercontent.com/17678382/115098788-993db180-9ef7-11eb-8b1e-4bb45aef7e3e.png)
 
 ## Configuration
 
-1. Import the `blacksipqa.example-2` app to your theme's dependencies in the `manifest.json`, for example:
+1. Import the `blacksipqa.example-1` app to your theme's dependencies in the `manifest.json`, for example:
 
 ```json
 {
     "dependencies": {
-        "blacksipqa.example-2": "0.x"
+        "blacksipqa.example-1": "0.x"
     }
 }
 ```
 
-2. Add the `example-2` block to any block below `store.home`. For example:
+2. Add the `example-1` block to any block below `store.home`. For example:
 
 ```json
 {
     "store.home": {
-        "blocks": ["example-2"]
+        "blocks": ["example-1"]
     }
 }
 ```
