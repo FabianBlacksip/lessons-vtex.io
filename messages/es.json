@@ -1,14 +1,5 @@
 {
     "admin/editor.seller-name.title": "Nombre del vendedor",
     "admin/editor.seller-name.description": "Muestra el nombre del vendedor",
-    "admin/editor.seller-name.label.title": "Label que se imprimie antes del valor",
-    "admin/editor.seller-policy-exchanges.title": "Politica de cambios",
-    "admin/editor.seller-policy-exchanges.description": "Muestra la politica de cambios del vendedor",
-    "admin/editor.seller-policy-exchanges.label.title": "Label que se imprimie antes del valor",
-    "admin/editor.seller-policy-delivery.title": "Politica de entregas",
-    "admin/editor.seller-policy-delivery.description": "Muestra la politica de entregas del vendedor",
-    "admin/editor.seller-policy-delivery.label.title": "Label que se imprimie antes del valor",
-    "admin/editor.seller-policy-secutity-privacy.title": "Politica de privacidad y seguridad",
-    "admin/editor.seller-policy-secutity-privacy.description": "Muestra la politica de privacida y seguridad del vendedor",
-    "admin/editor.seller-policy-secutity-privacy.label.title": "Label que se imprimie antes del valor"
+    "admin/editor.seller-name.label.title": "Label que se imprimie antes del valor"
 }
