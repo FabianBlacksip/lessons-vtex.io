@@ -1,0 +1,19 @@
+{
+    "flex-layout.col#section-promess-1": {
+        "children": [
+            "image#promess-1",
+            "rich-text#promess-1"
+        ]
+    },
+    "rich-text#promess-1": {
+        "props": {
+            "text": "Entregas en 45"
+        }
+    },
+    "image#promess-1": {
+        "props": {
+            "src": "https://plchldr.co/i/40x50?&bg=ff0000%20&fc=fff",
+            "blockClass": "imagePromess"
+          }
+    }
+}
