@@ -1,13 +1,18 @@
 {
     "flex-layout.col#section-promess-1": {
         "children": [
+            "flex-layout.row#promess-1"
+        ]
+    },
+    "flex-layout.row#promess-1": {
+        "children": [
             "image#promess-1",
             "rich-text#promess-1"
         ]
     },
     "rich-text#promess-1": {
         "props": {
-            "text": "Entregas en 45"
+            "text": "Compras facil y seguras"
         }
     },
     "image#promess-1": {

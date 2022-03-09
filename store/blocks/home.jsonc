@@ -8,19 +8,25 @@
 
     "flex-layout.row#section-promess": {
         "children": [
-            "flex-layout.col#section-promess-1"
-            // "flex-layout.col#section-promess-2",
-            // "flex-layout.col#section-promess-3",
-            // "flex-layout.col#section-promess-4",
-            // "flex-layout.col#section-promess-5"
-        ]
+            "flex-layout.col#section-promess-1",
+            "flex-layout.col#section-promess-2",
+            "flex-layout.col#section-promess-3",
+            "flex-layout.col#section-promess-4",
+            "flex-layout.col#section-promess-5"
+        ],
+        "props": {
+            "blockClass": "sectionPromess"
+        }
     },
 
     "flex-layout.row#section-brands": {
         "children": [
             "flex-layout.col#section-brands-title",
             "flex-layout.col#section-brands"
-        ]
+        ],
+        "props": {
+            "blockClass": "sectionBrands"
+        }
     },
     "flex-layout.col#section-brands-title": {
         "children": ["rich-text#brands-title"],
@@ -30,7 +36,7 @@
     },
     "rich-text#brands-title": {
         "props": {
-            "text": "¿Qué estas buscando?"
+            "text": "¿Qué estas buscando? \n [VER TODO](/)"
         }
     },
     "flex-layout.col#section-brands": {
