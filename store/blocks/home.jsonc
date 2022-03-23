@@ -2,17 +2,15 @@
     "store.home": {
         "blocks": [
             "flex-layout.row#section-promess",
-            "flex-layout.row#section-brands"
+            "flex-layout.row#section-brands",
+            //"flex-layout.row#banner-first",
+            "flex-layout.row#slider-video-home"
         ]
     },
 
     "flex-layout.row#section-promess": {
         "children": [
-            "flex-layout.col#section-promess-1",
-            "flex-layout.col#section-promess-2",
-            "flex-layout.col#section-promess-3",
-            "flex-layout.col#section-promess-4",
-            "flex-layout.col#section-promess-5"
+            "slider-layout#promess"
         ],
         "props": {
             "blockClass": "sectionPromess"

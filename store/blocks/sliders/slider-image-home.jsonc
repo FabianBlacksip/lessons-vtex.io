@@ -1,0 +1,48 @@
+{
+    "flex-layout.row#banner-first": {
+        "children": ["list-context.image-list#full-screen"]
+    },
+    "list-context.image-list#full-screen": {
+        "children": [
+            "slider-layout#demo-images"
+        ],
+        "props": {
+            "images": [
+                {
+                    "image": "https://i.imgur.com/oY7YEDM.jpeg",
+                    "description": "something something 1",
+                    "link": {
+                        "url": "categoria-1"
+                    }
+                },
+                {
+                    "image": "https://i.imgur.com/oY7YEDM.jpeg",
+                    "description": "something something 2",
+                    "link": {
+                        "url": "categoria-1"
+                    }
+                },
+                {
+                    "image": "https://i.imgur.com/oY7YEDM.jpeg",
+                    "description": "something something 3",
+                    "link": {
+                        "url": "categoria-1"
+                    }
+                }
+            ]
+        }
+    },
+    "slider-layout#demo-images": {
+        "props": {
+            "itemsPerPage": {
+                "desktop": 1,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": true,
+            "autoplay": {
+                "timeout": "3500"
+            }
+        }
+    }
+}
