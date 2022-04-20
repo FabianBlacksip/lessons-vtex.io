@@ -1,5 +1,13 @@
 {
     "store.home": {
-        "blocks": []
+        "blocks": [
+            "flex-layout.row#rich-text-content"
+        ]
+    },
+    "flex-layout.row#rich-text-content": {
+        "children": ["flex-layout.col#rich-text-content-column"]
+    },
+    "flex-layout.col#rich-text-content-column": {
+        "children": ["rich-text#our-values-title", "rich-text#our-values"]
     }
 }
