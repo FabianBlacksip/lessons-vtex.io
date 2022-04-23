@@ -1,0 +1,198 @@
+{
+    "flex-layout.row#categories": {
+        "props": {
+            "blockClass": "shopByCategory",
+            "horizontalAlign": "center",
+            "verticalAlign": "center",
+            "preventHorizontalStretch": true,
+            "preventVerticalStretch": true,
+            "fullWidth": true
+        },
+        "children": [
+            "link#shoBy1",
+            "link#shoBy2",
+            "link#shoBy3",
+            "link#shoBy4",
+            "link#shoBy5",
+            "link#shoBy6",
+            "link#shoBy7",
+            "link#shoBy8"
+        ]
+    },
+    "link#shoBy1": {
+        "children": [
+            "image#shoBy1",
+            "rich-text#cat1"
+        ],
+        "props": {
+            "href": "/cuidado-capilar",
+            "blockClass": "shopByLink"
+        }
+    },
+    "link#shoBy2": {
+        "children": [
+            "image#shoBy2",
+            "rich-text#cat2"
+        ],
+        "props": {
+            "href": "/cuidado-personal",
+            "blockClass": "shopByLink"
+        }
+    },
+    "link#shoBy3": {
+        "children": [
+            "image#shoBy3",
+            "rich-text#cat3"
+        ],
+        "props": {
+            "href": "/cuidado-facial",
+            "blockClass": "shopByLink"
+        }
+    },
+    "link#shoBy4": {
+        "children": [
+            "image#shoBy4",
+            "rich-text#cat4"
+        ],
+        "props": {
+            "href": "/maquillaje",
+            "blockClass": "shopByLink"
+        }
+    },
+    "link#shoBy5": {
+        "children": [
+            "image#shoBy5",
+            "rich-text#cat5"
+        ],
+        "props": {
+            "href": "/cuidado-bebe",
+            "blockClass": "shopByLink"
+        }
+    },
+    "link#shoBy6": {
+        "children": [
+            "image#shoBy6",
+            "rich-text#cat6"
+        ],
+        "props": {
+            "href": "/cuidado-capilar",
+            "blockClass": "shopByLink"
+        }
+    },
+    "link#shoBy7": {
+        "children": [
+            "image#shoBy7",
+            "rich-text#cat7"
+        ],
+        "props": {
+            "href": "/cuidado-corporal",
+            "blockClass": "shopByLink"
+        }
+    },
+    "link#shoBy8": {
+        "children": [
+            "image#shoBy8",
+            "rich-text#cat8"
+        ],
+        "props": {
+            "href": "/cuidado-facial",
+            "blockClass": "shopByLink"
+        }
+    },
+    "image#shoBy1": {
+        "props": {
+            "src": "https://plchldr.co/i/93x93?&bg=000&fc=fff",
+            "blockClass": "shoByImage"
+        }
+    },
+    "image#shoBy2": {
+        "props": {
+            "src": "https://plchldr.co/i/93x93?&bg=000&fc=fff",
+            "blockClass": "shoByImage"
+        }
+    },
+    "image#shoBy3": {
+        "props": {
+            "src": "https://plchldr.co/i/93x93?&bg=000&fc=fff",
+            "blockClass": "shoByImage"
+        }
+    },
+    "image#shoBy4": {
+        "props": {
+            "src": "https://plchldr.co/i/93x93?&bg=000&fc=fff",
+            "blockClass": "shoByImage"
+        }
+    },
+    "image#shoBy5": {
+        "props": {
+            "src": "https://plchldr.co/i/93x93?&bg=000&fc=fff",
+            "blockClass": "shoByImage"
+        }
+    },
+    "image#shoBy6": {
+        "props": {
+            "src": "https://plchldr.co/i/93x93?&bg=000&fc=fff",
+            "blockClass": "shoByImage"
+        }
+    },
+    "image#shoBy7": {
+        "props": {
+            "src": "https://plchldr.co/i/93x93?&bg=000&fc=fff",
+            "blockClass": "shoByImage"
+        }
+    },
+    "image#shoBy8": {
+        "props": {
+            "src": "https://plchldr.co/i/93x93?&bg=000&fc=fff",
+            "blockClass": "shoByImage"
+        }
+    },
+    "rich-text#cat1": {
+        "props": {
+            "text": "Cuidado Capilar",
+            "blockClass": "shopByCategory"
+        }
+    },
+    "rich-text#cat2": {
+        "props": {
+            "text": "Cuidado Corporal",
+            "blockClass": "shopByCategory"
+        }
+    },
+    "rich-text#cat3": {
+        "props": {
+            "text": "Cuidado Facial",
+            "blockClass": "shopByCategory"
+        }
+    },
+    "rich-text#cat4": {
+        "props": {
+            "text": "Maquillaje",
+            "blockClass": "shopByCategory"
+        }
+    },
+    "rich-text#cat5": {
+        "props": {
+            "text": "Cuidado Bebé",
+            "blockClass": "shopByCategory"
+        }
+    },
+    "rich-text#cat6": {
+        "props": {
+            "text": "Cuidado Capilar",
+            "blockClass": "shopByCategory"
+        }
+    },
+    "rich-text#cat7": {
+        "props": {
+            "text": "Cuidado Corporal",
+            "blockClass": "shopByCategory"
+        }
+    },
+    "rich-text#cat8": {
+        "props": {
+            "text": "Cuidado Facial",
+            "blockClass": "shopByCategory"
+        }
+    }
+}

@@ -12,7 +12,7 @@
     },
     "rich-text#promess-2": {
         "props": {
-            "text": "Compras facil y seguras"
+            "text": "Compra **facil\n y segura**"
         }
     },
     "image#promess-2": {

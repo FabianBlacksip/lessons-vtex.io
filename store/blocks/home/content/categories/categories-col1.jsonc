@@ -1,0 +1,20 @@
+{
+    "flex-layout.col#section-categories-title": {
+        "children": [
+            "rich-text#brands-title"
+        ],
+        "props": {
+            "width": "20%"
+        }
+    },
+    "rich-text#brands-title": {
+        "props": {
+            "text": "¿Qué estas buscando? \n [VER TODO](/)"
+        }
+    },
+    "flex-layout.col#section-categories": {
+        "children": [
+            "flex-layout.row#categories"
+        ]
+    }
+}
