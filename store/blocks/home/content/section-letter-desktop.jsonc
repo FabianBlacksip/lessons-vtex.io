@@ -1,0 +1,114 @@
+{
+    "flex-layout.row#section-letter-desktop": {
+        "children": [
+            "flex-layout.col#image-content",
+            "flex-layout.col#info-content"
+        ],
+        "props": {
+            "blockClass": "sectionLetterContent"
+        }
+    },
+
+    "flex-layout.col#image-content": {
+        "children": [
+            "image#section-letter"
+        ],
+        "props": {
+            "blockClass": "letterImageContent"
+        }
+    },
+
+    "image#section-letter": {
+        "props": {
+            "src": "https://i.imgur.com/ipQipBB.jpg",
+            "width": "100%",
+            "blockClass": "imageLetter"
+        }
+    },
+    "flex-layout.col#info-content": {
+        "children": [
+            "flex-layout.row#letter-title",
+            "flex-layout.row#letter-description",
+            "flex-layout.row#letter-promess-1",
+            "flex-layout.row#letter-promess-2"
+        ],
+        "props": {
+            "blockClass": "letterInfoContent"
+        }
+    },
+
+    "flex-layout.row#letter-title": {
+        "children": ["rich-text#letter-title"]
+    },
+
+    "rich-text#letter-title": {
+        "props": {
+            "text": "## Pavo dorado relleno al horno"
+        }
+    },
+
+    "flex-layout.row#letter-description": {
+        "children": ["rich-text#letter-description"]
+    },
+
+    "rich-text#letter-description": {
+        "props": {
+            "text": "Delicioso y sencillo de preparar, pavo al horno relleno de verduras con jamon serrano para celebrar en navidad con toda la familia.",
+            "blockClass": "letterDescription"
+        }
+    },
+
+    "flex-layout.row#letter-promess-1": {
+        "children": [
+            "rich-text#letter-promess-row1-1",
+            "rich-text#letter-promess-row1-2",
+            "rich-text#letter-promess-row1-3"
+        ]
+    },
+
+    "flex-layout.row#letter-promess-2": {
+        "children": [
+            "rich-text#letter-promess-row2-1",
+            "rich-text#letter-promess-row2-2",
+            "rich-text#letter-promess-row2-3"
+        ]
+    },
+
+    "rich-text#letter-promess-row1-1": {
+        "props": {
+            "text": "![promess 1](https://i.imgur.com/RWj3DiZ.png) 60 minutos",
+            "blockClass": "letterPromess"
+        }
+    },
+    "rich-text#letter-promess-row1-2": {
+        "props": {
+            "text": "![promess 2](https://imgur.com/YU224Ni.png) 8 ingredientes",
+            "blockClass": "letterPromess"
+        }
+    },
+    "rich-text#letter-promess-row1-3": {
+        "props": {
+            "text": "![promess 3](https://i.imgur.com/EvjGjXS.png) Nivel: principiante",
+            "blockClass": "letterPromess"
+        }
+    },
+
+    "rich-text#letter-promess-row2-1": {
+        "props": {
+            "text": "![promess 1](https://i.imgur.com/9V8uyXo.png) 4 a 6 comensales",
+            "blockClass": "letterPromess"
+        }
+    },
+    "rich-text#letter-promess-row2-2": {
+        "props": {
+            "text": "![promess 2](https://i.imgur.com/xx4LO0k.png) S/1200 – S/1480",
+            "blockClass": "letterPromess"
+        }
+    },
+    "rich-text#letter-promess-row2-3": {
+        "props": {
+            "text": "![promess 3](https://i.imgur.com/IhKo5Rc.png) País: Perú",
+            "blockClass": "letterPromess"
+        }
+    }
+}

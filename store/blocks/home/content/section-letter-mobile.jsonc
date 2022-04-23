@@ -1,0 +1,140 @@
+{
+    "flex-layout.row#section-letter-mobile": {
+        "children": [
+            "flex-layout.col#section-letter-content-mobile"
+        ],
+        "props": {
+            "blockClass": "sectionLetterContent"
+        }
+    },
+
+    "flex-layout.col#section-letter-content-mobile": {
+        "children": [
+            "flex-layout.row#image-content-mobile",
+            "flex-layout.row#info-content-mobile"
+        ]
+    },
+
+    "flex-layout.row#image-content-mobile": {
+        "children": [
+            "image#section-letter-mobile"
+        ],
+        "props": {
+            "blockClass": "letterImageContent"
+        }
+    },
+
+    "image#section-letter-mobile": {
+        "props": {
+            "src": "https://i.imgur.com/ipQipBB.jpg",
+            "width": "100%",
+            "blockClass": "imageLetter"
+        }
+    },
+    "flex-layout.row#info-content-mobile": {
+        "children": [
+            "flex-layout.col#info-content-mobile"
+        ]
+    },
+
+    "flex-layout.col#info-content-mobile": {
+        "children": [
+            "flex-layout.row#letter-title-mobile",
+            "flex-layout.row#letter-description-mobile",
+            "flex-layout.row#letter-promess-content-mobile"
+        ],
+        "props": {
+            "paddingLeft": 3,
+            "paddingRight": 3
+        }
+    },
+
+    "flex-layout.row#letter-title-mobile": {
+        "children": ["rich-text#letter-title-mobile"]
+    },
+
+    "rich-text#letter-title-mobile": {
+        "props": {
+            "text": "#### **Pavo dorado relleno al horno**"
+        }
+    },
+
+    "flex-layout.row#letter-description-mobile": {
+        "children": ["rich-text#letter-description-mobile"]
+    },
+
+    "rich-text#letter-description-mobile": {
+        "props": {
+            "text": "Delicioso y sencillo de preparar, pavo al horno relleno de verduras con jamon serrano para celebrar en navidad con toda la familia.",
+            "blockClass": "letterDescription"
+        }
+    },
+
+    "flex-layout.row#letter-promess-content-mobile": {
+        "children": [
+            "flex-layout.col#letter-promess-col1",
+            "flex-layout.col#letter-promess-col2"
+        ],
+        "props": {
+            "preserveLayoutOnMobile": true,
+            "preventHorizontalStretch": true
+        }
+    },
+
+    "flex-layout.col#letter-promess-col1": {
+        "children": [
+            "rich-text#letter-promess-col1-1",
+            "rich-text#letter-promess-col1-2",
+            "rich-text#letter-promess-col1-3"
+        ],
+        "props": {
+            "width": "grow"
+        }
+    },
+
+    "flex-layout.col#letter-promess-col2": {
+        "children": [
+            "rich-text#letter-promess-col2-1",
+            "rich-text#letter-promess-col2-2",
+            "rich-text#letter-promess-col2-3"
+        ]
+    },
+
+    "rich-text#letter-promess-col1-1": {
+        "props": {
+            "text": "![promess 1](https://i.imgur.com/RWj3DiZ.png) 60 minutos",
+            "blockClass": "letterPromess"
+        }
+    },
+    "rich-text#letter-promess-col2-1": {
+        "props": {
+            "text": "![promess 2](https://imgur.com/YU224Ni.png) 8 ingredientes",
+            "blockClass": "letterPromess"
+        }
+    },
+    "rich-text#letter-promess-col1-2": {
+        "props": {
+            "text": "![promess 3](https://i.imgur.com/EvjGjXS.png) Nivel: principiante",
+            "blockClass": "letterPromess"
+        }
+    },
+
+    "rich-text#letter-promess-col2-2": {
+        "props": {
+            "text": "![promess 1](https://i.imgur.com/9V8uyXo.png) 4 a 6 comensales",
+            "blockClass": "letterPromess"
+        }
+    },
+    "rich-text#letter-promess-col1-3": {
+        "props": {
+            "text": "![promess 2](https://i.imgur.com/xx4LO0k.png) S/1200 – S/1480",
+            "blockClass": "letterPromess"
+        }
+    },
+    "rich-text#letter-promess-col2-3": {
+        "props": {
+            "text": "![promess 3](https://i.imgur.com/IhKo5Rc.png) País: Perú",
+            "blockClass": "letterPromess"
+        }
+    }
+}

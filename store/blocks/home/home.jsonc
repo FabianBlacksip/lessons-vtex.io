@@ -1,0 +1,19 @@
+{
+    "store.home": {
+        "blocks": [
+            "responsive-layout.desktop#responsive",
+            "responsive-layout.mobile#responsive"
+        ]
+    },
+
+    "responsive-layout.desktop#responsive": {
+        "children": ["flex-layout.row#section-letter-desktop"]
+    },
+
+    "responsive-layout.mobile#responsive": {
+        "children": ["flex-layout.row#section-letter-mobile"]
+    }
+
+}
+
+
