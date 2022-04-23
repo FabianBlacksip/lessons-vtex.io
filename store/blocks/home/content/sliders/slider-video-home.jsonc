@@ -27,6 +27,7 @@
     },
 
     "list-context.image-list#full-screen-video": {
+        "children": ["slider-layout#demo-images-video"],
         "props": {
             "images": [
                 {
@@ -66,7 +67,6 @@
             }
         },
         "children": [
-            "list-context.image-list#full-screen-video",
             "link#video-test"
         ]
     }
