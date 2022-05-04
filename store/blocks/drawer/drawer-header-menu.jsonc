@@ -1,0 +1,60 @@
+{
+    "drawer#menu": {
+        "children": [
+            "flex-layout.row#drawer-content"
+        ],
+        "blocks": ["drawer-trigger", "drawer-header#my-drawer"]
+      },
+
+      "flex-layout.row#drawer-content": {
+          "children": ["flex-layout.col#drawer-content"],
+          "props": {
+              "blockClass":"drawerFirstContent"
+          }
+      },
+
+      "flex-layout.col#drawer-content": {
+          "children": [
+            "drawer#menu-mujer",
+            "drawer#menu-hombre"
+          ]
+      },
+
+      "drawer-trigger": {
+        "children": [
+            "image#icon-hamburger"
+        ]
+      },
+
+      "image#icon-hamburger": {
+          "props": {
+            "src": "https://img.icons8.com/material-outlined/452/menu--v1.png",
+            "maxWidth": "20px"
+          }
+      },
+
+      "drawer-header#my-drawer": {
+        "children": [
+          "drawer-close-button",
+          "rich-text#open-drawer-size-guide"
+        ],
+        "props": {
+            "blockClass": "drawerHeaderContent"
+        }
+      },
+
+      "rich-text#open-drawer-size-guide": {
+          "props": {
+              "text": "GUÍA DE TALLAS",
+              "blockClass": "textHeaderDrawer"
+          }
+      },
+
+      "image#next": {
+        "props": {
+            "src": "https://i.imgur.com/r1VYUKc.png",
+            "maxWidth": "14px",
+            "maxHeight": "14px"
+        }
+      }
+}

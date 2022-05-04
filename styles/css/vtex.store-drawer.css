@@ -1,0 +1,34 @@
+
+.drawerHeader--drawerHeaderContent {
+    display: inline-flex;
+    align-items: center;
+    min-width: 100%;
+    width: 100%;
+}
+
+.drawerHeader--drawerHeaderContent :local(div):last-child {
+    width: 80%;
+}
+
+.drawerHeader--drawerHeaderContent .closeIconButton {
+    position: relative;
+    display: block;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.drawerHeader--drawerHeaderContent .closeIconButton::before {
+    content: "";
+    background: url('https://i.imgur.com/kQkDqkr.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    display: block;
+}
+
+.drawerHeader--drawerHeaderContent .closeIconButton :local(svg) {
+    display: none;
+}

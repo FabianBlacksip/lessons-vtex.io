@@ -4,5 +4,13 @@
     },
     "header.full": {
         "blocks": ["header-layout.desktop", "header-layout.mobile"]
+    },
+
+    "header-layout.desktop": {
+        "children": ["drawer#menu"]
+    },
+
+    "header-layout.mobile": {
+        "children": ["drawer#menu"]
     }
 }

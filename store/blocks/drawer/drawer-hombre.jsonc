@@ -1,0 +1,72 @@
+{
+    "drawer#menu-hombre": {
+        "children": [
+            "flex-layout.row#image-drawer-content-hombre"
+        ],
+        "blocks": ["drawer-trigger#hombre", "drawer-header#my-drawer-hombre"]
+      },
+
+      "flex-layout.row#image-drawer-content-hombre": {
+        "children": ["flex-layout.col#image-drawer-content-hombre"],
+        "props": {
+            "blockClass": "imageContent"
+        }
+      },
+
+      "flex-layout.col#image-drawer-content-hombre": {
+        "children": ["image#guia-detallas-hombre"],
+        "props": {
+            "horizontalAlign": "center"
+        }
+      },
+
+      "drawer-trigger#hombre": {
+        "children": [
+            "flex-layout.row#trigger-content-hombre"
+        ],
+        "props": {
+            "blockClass": "triggerConten"
+        }
+      },
+
+      "flex-layout.row#trigger-content-hombre": {
+        "children": [
+            "rich-text#text-hombre",
+            "image#next"
+        ],
+        "props": {
+            "blockClass": "triggerConten",
+            "preserveLayoutOnMobile": true,
+            "preventHorizontalStretch": true
+        }
+      },
+
+      "rich-text#text-hombre": {
+          "props": {
+              "text": "HOMBRE",
+              "blockClass": "textHeaderDrawer"
+          }
+      },
+
+      "rich-text#text-header-hombre": {
+        "props": {
+            "text": "GUÍA DE TALLAS HOMBRE",
+            "blockClass": "textHeaderDrawer"
+        }
+      },
+
+      "drawer-header#my-drawer-hombre": {
+        "children": [
+            "drawer-close-button",
+            "rich-text#text-header-hombre"
+        ],
+        "props": {
+            "blockClass": "drawerHeaderContent"
+        }
+      },
+      "image#guia-detallas-hombre": {
+          "props": {
+              "src": "https://i.imgur.com/HLLiO8N.jpeg"
+          }
+      }
+}

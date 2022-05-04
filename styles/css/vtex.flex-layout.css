@@ -1,0 +1,23 @@
+.flexRow--triggerConten {
+    width: 100%;
+    min-width: 100%;
+}
+
+.flexRow--drawerFirstContent {
+    width: 100%;
+}
+
+.flexRowContent--triggerConten :local(div):first-child {
+    width: 80% !important;
+    display: block;
+}
+
+.flexRowContent--triggerConten :local(div):last-child {
+    width: 20% !important;
+    display: inline-flex;
+    align-items: center;
+}
+
+.flexRow--imageContent {
+    width: 100%;
+}
