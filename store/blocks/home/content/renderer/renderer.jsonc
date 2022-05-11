@@ -1,0 +1,76 @@
+{
+    "flex-layout.row#section-renderer": {
+        "children": [
+            "flex-layout.col#section-render"
+        ]
+    },
+    "flex-layout.col#section-render": {
+        "children": [
+            "list-context.image-list#demo-renderer-1",
+            "list-context.image-list#demo-renderer-2",
+            "list-context.image-list#demo-renderer-3"
+        ]
+    },
+    "list-context.image-list#demo-renderer-1": {
+        "children": [
+            "list-context-renderer#wrapped"
+        ],
+        "props": {
+            "images": [
+                {
+                    "image": "https://i.imgur.com/5TKycho.jpg",
+                    "description": "image 1"
+                },
+                {
+                    "image": "https://i.imgur.com/kzF2tuC.jpg",
+                    "description": "image 2"
+                },
+                {
+                    "image": "https://i.imgur.com/M4tLgrn.jpg",
+                    "description": "image 3"
+                }
+            ]
+        }
+    },
+    "list-context.image-list#demo-renderer-2": {
+        "children": [
+            "list-context-renderer#wrapped"
+        ],
+        "props": {
+            "images": [
+                {
+                    "image": "https://i.imgur.com/XOYwFkE.jpg",
+                    "description": "image 1"
+                }
+            ]
+        }
+    },
+    "list-context.image-list#demo-renderer-3": {
+        "children": [
+            "list-context-renderer#wrapped"
+        ],
+        "props": {
+            "images": [
+                {
+                    "image": "https://i.imgur.com/3t2tV3u.jpg",
+                    "description": "image 1"
+                },
+                {
+                    "image": "https://i.imgur.com/mchi6Iv.jpg",
+                    "description": "image 2"
+                },
+                {
+                    "image": "https://i.imgur.com/Gz1Bfqt.jpg",
+                    "description": "image 3"
+                }
+            ]
+        }
+    },
+    "list-context-renderer#wrapped": {
+        "props": {
+            "listElement": "div",
+            "itemElement": "div",
+            "blockClass": "rendererContent"
+        }
+    }
+}

@@ -1,0 +1,13 @@
+@media screen and (min-width: 40em) {
+    .list--rendererContent {
+        flex-direction: row;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0.30rem 0;
+    }
+
+    .item--rendererContent {
+        margin: 0 0.5rem;
+    }
+}
