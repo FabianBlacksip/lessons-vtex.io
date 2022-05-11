@@ -2,7 +2,8 @@
     "store.home": {
         "blocks": [
             "flex-layout.row#section-promess",
-            "flex-layout.row#section-categories"
+            "flex-layout.row#section-categories",
+            "flex-layout.row#section-product-summary"
         ]
     }
 }
