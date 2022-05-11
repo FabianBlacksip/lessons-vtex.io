@@ -1,0 +1,59 @@
+{
+    "drawer#menu-departments": {
+        "children": [
+            "flex-layout.row#menu-drawer-content"
+        ],
+        "blocks": [
+            "drawer-trigger#departments",
+            "drawer-header#my-drawer-departments"
+        ]
+    },
+    "flex-layout.row#menu-drawer-content": {
+        "children": [
+            "flex-layout.col#menu-drawer-content"
+        ],
+        "props": {
+            "blockClass": "menuDrawerContent"
+        }
+    },
+    "flex-layout.col#menu-drawer-content": {
+        "children": [
+            "menu-item#category-1",
+            "menu-item#category-2",
+            "menu-item#category-3"
+        ],
+        "props": {
+            "horizontalAlign": "center"
+        }
+    },
+    "drawer-trigger#departments": {
+        "children": [
+            "flex-layout.row#trigger-content-department-1",
+            "flex-layout.row#trigger-content-department-2",
+            "flex-layout.row#trigger-content-department-3",
+            "flex-layout.row#trigger-content-department-4",
+            "flex-layout.row#trigger-content-department-5",
+            "flex-layout.row#trigger-content-department-6",
+            "flex-layout.row#trigger-content-department-7"
+        ],
+        "props": {
+            "blockClass": "triggerConten"
+        }
+    },
+
+    "rich-text#text-header-department": {
+        "props": {
+            "text": "Departments",
+            "blockClass": "textHeaderDrawer"
+        }
+    },
+    "drawer-header#my-drawer-departments": {
+        "children": [
+            "drawer-close-button",
+            "rich-text#text-header-department"
+        ],
+        "props": {
+            "blockClass": "drawerHeaderContent"
+        }
+    }
+}

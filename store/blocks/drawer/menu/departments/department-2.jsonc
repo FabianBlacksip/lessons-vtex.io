@@ -1,0 +1,19 @@
+{
+    "flex-layout.row#trigger-content-department-2": {
+        "children": [
+            "rich-text#department-2",
+            "image#next"
+        ],
+        "props": {
+            "blockClass": "triggerConten",
+            "preserveLayoutOnMobile": true,
+            "preventHorizontalStretch": true
+        }
+    },
+    "rich-text#department-2": {
+        "props": {
+            "text": "department-2",
+            "blockClass": "textDepartment"
+        }
+    }
+}

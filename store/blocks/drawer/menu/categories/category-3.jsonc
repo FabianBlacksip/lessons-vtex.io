@@ -1,0 +1,34 @@
+{
+    "menu-item#category-3": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["menu-item-header", "menu-item-total"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/category-3",
+                "noFollow": true,
+                "tagTitle": "category-3",
+                "text": "category-3"
+            }
+        },
+        "blocks": ["vtex.menu@2.x:submenu.accordion#category-3"]
+    },
+    "vtex.menu@2.x:submenu.accordion#category-3": {
+        "children": ["vtex.menu@2.x:menu#submenu-category-3"],
+        "props": {
+            "blockClass": "menu__levelone"
+        }
+    },
+
+    "vtex.menu@2.x:menu#submenu-category-3": {
+        "props": {
+            "orientation": "vertical",
+            "blockClass": "menu__levelone--container"
+        },
+        "children": [
+            "menu-item#sub-category-1",
+            "menu-item#sub-category-2"
+        ]
+    }
+}

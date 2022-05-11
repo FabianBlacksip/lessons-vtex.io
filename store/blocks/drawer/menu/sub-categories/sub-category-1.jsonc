@@ -1,0 +1,16 @@
+{
+    "menu-item#sub-category-1": {
+        "props": {
+            "type": "custom",
+            "highlight": false,
+            "blockClass": ["menu-item-header", "menu-item-total"],
+            "itemProps": {
+                "type": "internal",
+                "href": "/sub-category-1",
+                "noFollow": true,
+                "tagTitle": "sub-category-1",
+                "text": "sub-category-1"
+            }
+        }
+    }
+}

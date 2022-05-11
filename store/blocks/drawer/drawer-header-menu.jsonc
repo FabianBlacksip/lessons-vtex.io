@@ -15,30 +15,26 @@
 
       "flex-layout.col#drawer-content": {
           "children": [
-            "drawer#menu-mujer",
-            "drawer#menu-hombre"
+            "drawer#menu-departments",
+            "flex-layout.row#drawer-footer"
           ]
       },
 
       "drawer-trigger": {
         "children": [
-            "rich-text#open-drawer-size-guide"
+            "rich-text#open-drawer"
         ]
       },
 
       "drawer-header#my-drawer": {
         "children": [
-          "drawer-close-button",
-          "rich-text#open-drawer-size-guide"
-        ],
-        "props": {
-            "blockClass": "drawerHeaderContent"
-        }
+          "drawer-close-button"
+        ]
       },
 
-      "rich-text#open-drawer-size-guide": {
+      "rich-text#open-drawer": {
           "props": {
-              "text": "GUÍA DE TALLAS",
+              "text": "menú",
               "blockClass": "textHeaderDrawer"
           }
       },
@@ -49,5 +45,21 @@
             "maxWidth": "14px",
             "maxHeight": "14px"
         }
+      },
+
+      "flex-layout.row#drawer-footer": {
+          "children": ["rich-text#login", "rich-text#wishlist"]
+      },
+
+      "rich-text#login": {
+          "props": {
+              "text": "[Mi cuenta](/account#/profile)"
+          }
+      },
+
+      "rich-text#wishlist": {
+          "props": {
+              "text": "[Mis Favoritos](/account#/profile)"
+          }
       }
 }

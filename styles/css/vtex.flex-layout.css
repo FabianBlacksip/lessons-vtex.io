@@ -9,11 +9,9 @@
 
 .flexRowContent--triggerConten :local(div):first-child {
     width: 80% !important;
-    display: block;
 }
 
-.flexRowContent--triggerConten :local(div):last-child {
-    width: 20% !important;
+.flexRowContent--triggerConten :local(div) {
     display: inline-flex;
     align-items: center;
 }
