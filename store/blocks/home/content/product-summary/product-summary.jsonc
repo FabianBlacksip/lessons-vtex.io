@@ -10,11 +10,7 @@
         ],
         "children": [
             "slider-layout#demo-products"
-        ],
-        "props": {
-            "collection": "153",
-            "orderBy": "OrderByReleaseDateDESC"
-        }
+        ]
     },
     "slider-layout#demo-products": {
         "props": {
