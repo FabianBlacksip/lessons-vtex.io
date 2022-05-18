@@ -1,0 +1,153 @@
+{
+    "vtex.menu@2.x:menu#websites": {
+        "children": [
+            "menu-item#department",
+            "menu-item#department",
+            "menu-item#department",
+            "menu-item#department",
+            "menu-item#department",
+            "menu-item#department",
+            "menu-item#department"
+        ]
+    },
+    "menu-item#department": {
+        "props": {
+            "id": "menu-item-department",
+            "type": "custom",
+            "highlight": false,
+            "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "Departament-1",
+                "text": "Departament-1"
+            }
+        },
+        "blocks": [
+            "vtex.menu@2.x:submenu#department"
+        ]
+    },
+    "vtex.menu@2.x:submenu#department": {
+        "children": [
+            "vtex.menu@2.x:menu#department",
+            "vtex.menu@2.x:menu#department",
+            "vtex.menu@2.x:menu#department",
+            "vtex.menu@2.x:menu#department"
+        ]
+    },
+    "vtex.menu@2.x:menu#department": {
+        "props": {
+            "orientation": "vertical",
+            "items": [
+                {
+                    "id": "menu-item-category",
+                    "type": "custom",
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "Categoria",
+                        "text": "Categoria"
+                    }
+                },
+                {
+                    "id": "menu-item-sub-category",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/about-us",
+                        "noFollow": false,
+                        "tagTitle": "subcategoria",
+                        "text": "subcategoria"
+                    }
+                },
+                {
+                    "id": "menu-item-sub-category",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/about-us",
+                        "noFollow": false,
+                        "tagTitle": "subcategoria",
+                        "text": "subcategoria"
+                    }
+                },
+                {
+                    "id": "menu-item-category",
+                    "type": "custom",
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "Categoria",
+                        "text": "Categoria"
+                    }
+                },
+                {
+                    "id": "menu-item-sub-category",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/about-us",
+                        "noFollow": false,
+                        "tagTitle": "subcategoria",
+                        "text": "subcategoria"
+                    }
+                },
+                {
+                    "id": "menu-item-sub-category",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/about-us",
+                        "noFollow": false,
+                        "tagTitle": "subcategoria",
+                        "text": "subcategoria"
+                    }
+                },
+                {
+                    "id": "menu-item-category",
+                    "type": "custom",
+                    "highlight": true,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "#",
+                        "noFollow": false,
+                        "tagTitle": "Categoria",
+                        "text": "Categoria"
+                    }
+                },
+                {
+                    "id": "menu-item-sub-category",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/about-us",
+                        "noFollow": false,
+                        "tagTitle": "subcategoria",
+                        "text": "subcategoria"
+                    }
+                },
+                {
+                    "id": "menu-item-sub-category",
+                    "type": "custom",
+                    "highlight": false,
+                    "itemProps": {
+                        "type": "internal",
+                        "href": "/about-us",
+                        "noFollow": false,
+                        "tagTitle": "subcategoria",
+                        "text": "subcategoria"
+                    }
+                }
+            ]
+        }
+    }
+}
