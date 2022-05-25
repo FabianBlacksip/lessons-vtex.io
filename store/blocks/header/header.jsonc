@@ -23,8 +23,7 @@
     "header-row#1-desktop": {
         "children": [
             "logo#header-white",
-            "search-bar",
-            "login"
+            "search-bar"
         ],
         "props": {
             "blockClass": "headerRowContent",
