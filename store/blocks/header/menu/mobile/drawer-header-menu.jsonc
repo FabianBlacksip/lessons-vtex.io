@@ -3,7 +3,7 @@
         "children": [
             "flex-layout.row#drawer-content"
         ],
-        "blocks": ["drawer-trigger", "drawer-header#my-drawer"]
+        "blocks": ["drawer-header#my-drawer"]
       },
 
       "flex-layout.row#drawer-content": {
@@ -18,12 +18,6 @@
             "drawer#menu-departments",
             "flex-layout.row#drawer-footer"
           ]
-      },
-
-      "drawer-trigger": {
-        "children": [
-            "rich-text#open-drawer"
-        ]
       },
 
       "drawer-header#my-drawer": {

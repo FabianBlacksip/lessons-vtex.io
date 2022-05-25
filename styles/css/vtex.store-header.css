@@ -1,0 +1,9 @@
+.headerRowContainer--headerRowContent {
+    justify-content: center;
+}
+
+@media screen and (max-width: 64em) {
+    .headerRowContainer {
+        justify-content: space-between;
+    }
+}

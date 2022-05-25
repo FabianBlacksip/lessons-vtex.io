@@ -1,0 +1,39 @@
+{
+    "login": {
+        "props": {
+            "iconLabel": "Mi cuenta",
+            "showIconProfile": true,
+            "blockClass": "micuenta",
+            "accountOptionLinks": [
+                {
+                    "label": "Mi Perfil",
+                    "path": "/account#/profile",
+                    "cssClass": "profile-link"
+                },
+                {
+                    "label": "Mis Direcciones",
+                    "path": "/account#/addresses",
+                    "cssClass": "profile-link"
+                },
+                {
+                    "label": "Mis Pedidos",
+                    "path": "/account#/orders",
+                    "cssClass": "profile-link"
+                }
+            ],
+            "emailPlaceholder": "Ingresa tu correo electrónico",
+            "optionsTitle": "Ingresa o crea tu cuenta ",
+            "accessCodeTitle": "Ingresa tu correo electrónico para enviarte tu código de acceso",
+            "termsAndConditions": "Al registrarte estas aceptando nuestros [Términos y Condiciones](/terminos-y-condiciones) y nuestras [Políticas de Privacidad](/politicas-de-privacidad)",
+            "emailAndPasswordTitle": "ENTRA CON TU E-MAIL Y \n CONTRASEÑA"
+        }
+    },
+    "login-content": {
+        "props": {
+            "isInitialScreenOptionOnly": false,
+            "defaultOption": 1,
+            "showPasswordVerificationIntoTooltip": true,
+            "blockClass": "myaccount"
+        }
+    }
+}

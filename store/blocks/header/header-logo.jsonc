@@ -1,0 +1,14 @@
+{
+    //logo_blacksip_white.jpg
+    "logo#header-white": {
+        "props": {
+            "url": "assets/img/logo_blacksip_white.jpg",
+            "href": "/",
+            "width": 127,
+            "height": 33,
+            "mobileWidth": 98,
+            "mobileHeight": 27,
+            "blockClass": "logoHeader"
+        }
+    }
+}

@@ -1,0 +1,10 @@
+{
+    "search-bar": {
+        "props": {
+            "placeholder": "¿Qué producto buscas?",
+            "displayMode": "search-button",
+            "maxWidth": "500",
+            "autoFocus": true
+        }
+    }
+}
