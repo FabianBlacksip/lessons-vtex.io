@@ -1,0 +1,5 @@
+@media screen and (max-width: 64em) {
+    .slide--carousel--visible {
+        margin: 0 1rem !important;
+    }
+}

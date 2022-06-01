@@ -2,7 +2,10 @@
     "flex-layout.row#section-product-summary": {
         "children": [
             "list-context.product-list#demo1"
-        ]
+        ],
+        "props": {
+            "blockClass": "section-product-list-default"
+        }
     },
     "list-context.product-list#demo1": {
         "blocks": [
@@ -18,10 +21,11 @@
                 "(min-width: 1400px)": 6,
                 "desktop": 5,
                 "tablet": 3,
-                "phone": 1.5
+                "phone": 1
             },
             "infinite": true,
-            "showNavigationArrows": "desktopOnly",
+            "showPaginationDots": "never",
+            "centerMode": "to-the-left",
             "blockClass": "carousel"
         }
     }

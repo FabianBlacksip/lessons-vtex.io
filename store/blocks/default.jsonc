@@ -26,12 +26,22 @@
         "children": [
             "product-summary-add-to-list-button",
             "product-summary-image",
+            "product-summary-space",
+            "product-summary-brand",
             "product-summary-name",
-            "product-rating-inline",
             "product-summary-space",
             "product-summary-price",
-            "product-identifier.summary",
             "add-to-cart-button"
-        ]
+        ],
+        "props": {
+            "blockClass": "product-summary-default"
+        }
+    },
+
+    "product-summary-image": {
+        "props": {
+          "showBadge": true,
+          "height": 206
+        }
     }
 }
